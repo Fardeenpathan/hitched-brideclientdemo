@@ -258,9 +258,11 @@ export default function Home() {
 
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-160 relative z-10 pb-24">
           <h2 className="text-[#15528A]  text-center leading-tight text-[30px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2">
-            <span className="font-parisienne">Dhiraj</span>
-            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
-            <span className="font-parisienne">Ritika</span>
+           <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">
+  Dhiraj
+</span>
+            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
+            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Ritika</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-200 pt-150">
