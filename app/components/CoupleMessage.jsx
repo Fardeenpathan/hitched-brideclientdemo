@@ -306,7 +306,7 @@ A little rain never stopped a good celebration anyway.
               Looking Forward to <br /> Seeing You
             </h2>
             <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
-              <a href="https://wa.me/message/VUISMESQ3P6IK1" target="_blank">
+              <a href="https://wa.link/5ad8dn" target="_blank">
                 <img src="/assets/whatsapp.png" alt="" className="lg:h-10 lg:w-10 h-6 w-6" />
               </a>
               <h2 className="lg:text-3xl text-[18px] text-center text-[#FFF5B9]  font-Cormorant-upright">

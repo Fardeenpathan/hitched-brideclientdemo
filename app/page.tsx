@@ -44,31 +44,34 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Mehendi + Haldi",
-      image: "/assets/haldievent.png",
+      title_ceremony: "Haldi + Mehendi",
+      image: "/assets/mehandi.png",
       date: "Saturday, 20th June 2026",
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "4pm onwards",
+      theme: <><b>Theme:-</b> Pretty in Pink Florals,<br/> Pastels & Pink Hues</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
     {
       title_ceremony: "Engagement + Sangeet",
-      image: "/assets/sangeetevent.png",
+      image: "/assets/cocktail_w.png",
       date: "Saturday, 20th June 2026",
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "8pm Onwards",
+      theme: <><b>Theme:-</b> Theme: Glitz & Glam</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
       title_ceremony: "Wedding + Reception",
-      image: "/assets/receptionevent.png",
+      image: "/assets/engagement_w.png",
       date: "Sunday, 21st June 2026",
       venue: "The Central Park Hotel",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "5pm Onwards",
+      theme: <><b>Theme:-</b> Timeless Royalty, Elegant <br/> Ethnic & Royal Silhouettes</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
@@ -134,7 +137,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/rohit_mobilebg.webp')]
+    bg-[url('/assets/rohit_mobilebg2.jpg')]
     3xl:bg-[url('/assets/rohit_desktopbg.webp')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
@@ -242,14 +245,14 @@ export default function Home() {
               alt="ganesh"
               className="md:w-40 w-28 h-auto"
             /> */}
-            <h2 className="text-white md:text-2xl text-[17px] text-center">
+            {/* <h2 className="text-white md:text-2xl text-[17px] text-center">
               || श्री गणेशाय नमः ||
             </h2>
             <h2 className="text-white md:text-2xl text-[17px] text-center">
               वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
               <br />
               निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-            </h2>
+            </h2> */}
 
 
             {/* <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
@@ -257,7 +260,7 @@ export default function Home() {
               <br /> Late Smt. Kamla Kapoor
             </h2> */}
 
-            <hr className="lg:w-24 w-16 border-white my-4" />
+            {/* <hr className="lg:w-24 w-16 border-white my-4" /> */}
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
               The Bhawnani Family
@@ -313,7 +316,7 @@ export default function Home() {
                   <img
                     src={event.image}
                     alt={event.venue}
-                    className="lg:w-80 w-95 sm:w-76 h-auto"
+                    className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 "
                   />
 
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
@@ -328,7 +331,8 @@ export default function Home() {
                     <span className="text-[20px]">{event.venue_address}</span> <br />
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
-
+ <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[20px]">{event.theme}</span></p>
                   <a
                     href={event.link}
                     className="text-white underline md:text-sm text-[18px] mt-2 font-cormorant"
