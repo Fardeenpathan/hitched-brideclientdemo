@@ -181,7 +181,7 @@ export default function CoupleMessage() {
     <>
       <div className="md:bg-[url('/assets/couple_bgt.png')] bg-[url('/assets/desktop_couple_bg.jpg')] bg-cover bg-no-repeat">
         <div className="lg:h-850 md:h-350 h-560 pt-2 flex flex-col  items-center">
-          <h1 className="lg:text-[40px] md:text-3xl text-[50px] text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright">
+          <h1 className="lg:text-[40px] md:text-3xl text-[32px] text-center text-[#FFF5B9] lg:pt-36 pt-12 font-Cormorant-upright px-6 leading-12">
             A message from the couple
           </h1>
           <h2 className="lg:text-[30px] text-[18px]  text-center text-[#FFF5B9] lg:px-60 px-6 lg:mt-28 mt-12 font-Cormorant-upright lg:leading-8 md:leading-8 leading-6">
@@ -302,7 +302,7 @@ A little rain never stopped a good celebration anyway.
           </div>
 
           <div className="flex flex-col justify-center items-center lg:mt-20 lg:ml-140 ml-34">
-            <h2 className="lg:text-5xl text-[22px] text-center text-[#FFF5B9] lg:pt-63 font-Cormorant-upright pt-4 md:leading-12 leading-6">
+            <h2 className="lg:text-5xl text-[22px] text-center text-[#FFF5B9] lg:pt-63 pt-12 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
             <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
