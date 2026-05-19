@@ -376,7 +376,7 @@ export default function Home() {
       <div className="md:hidden relative flex items-start justify-center">
 
         <img
-          src="/assets/moon_mobile.webp"
+          src="/assets/moon_mobile2.webp"
           alt="background"
           className="w-full h-full object-contain"
         />
