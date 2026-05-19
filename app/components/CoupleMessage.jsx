@@ -79,11 +79,11 @@ export default function CoupleMessage() {
               </SwiperSlide>
 
                <SwiperSlide>
-                <img src="/assets/couple_img_1.webp" className="rounded-4xl border-6 border-amber-400"/>
+                <img src="/assets/couple_img_6.webp" className="rounded-4xl border-6 border-amber-400"/>
               </SwiperSlide>
 
                <SwiperSlide>
-                <img src="/assets/couple_img_1.webp" className="rounded-4xl border-6 border-amber-400"/>
+                <img src="/assets/couple_img_7.webp" className="rounded-4xl border-6 border-amber-400"/>
               </SwiperSlide>
 
           
@@ -133,7 +133,7 @@ A little rain never stopped a good celebration anyway.
             </div>
           </div>
 
-          <div className="flex flex-col justify-center items-center lg:mt-20 lg:ml-140 ml-34">
+          <div className="flex flex-col justify-center items-center 3xl:mt-0 lg:mt-20 lg:ml-140 ml-34">
             <h2 className="lg:text-5xl text-[22px] text-center text-[#FFF5B9] lg:pt-63 pt-12 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
