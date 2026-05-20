@@ -158,17 +158,30 @@ A little rain never stopped a good celebration anyway.
           </div>
 
           <div className="flex flex-col justify-center items-center 3xl:mt-0 lg:mt-20 lg:ml-140 ml-34 md:ml-50">
-            <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-63 pt-12 font-Cormorant-upright md:leading-12 leading-6">
+            <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-63 pt-1 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
-            <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
+            {/* <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
               <a href="https://wa.link/5ad8dn" target="_blank">
                 <img src="/assets/whatsapp_n.png" alt="" className="lg:h-10 lg:w-10 h-4 w-4" />
               </a>
               <h2 className="lg:text-3xl md:text-xl text-[16px] text-center text-[#FFF5B9]  font-Cormorant-upright">
                 Click on the Whatsapp icon to RSVP
               </h2>
-            </div>
+            </div> */}
+            <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4">
+  <a href="https://wa.link/5ad8dn" target="_blank">
+    <img
+      src="/assets/whatsapp_n.png"
+      alt=""
+      className="lg:h-10 lg:w-10 h-4 w-4 mt-1 md:mt-0"
+    />
+  </a>
+
+  <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+    Click on the Whatsapp icon to RSVP
+  </h2>
+</div>
           </div>
         </div>
       </div>
