@@ -190,8 +190,15 @@ A little rain never stopped a good celebration anyway.
 
   <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
     Click on the Whatsapp icon to RSVP
-  </h2>
+  </h2> <br/>
+  
 </div>
+<h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+    Ashutosh Jain (brother)
+  </h2> 
+  <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+    7042279130
+  </h2>
           </div>
         </div>
       </div>

@@ -60,7 +60,7 @@ export default function Home() {
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am Onwards",
-      theme1: <><b>Theme:-</b> The Pink Edit: <br /> (dress in any shade of pink from soft blush to bold fuchsia)</>,
+      theme1: <><b>Theme:-</b> The Pink Edit: <br /> (Dress in any shade of pink from soft blush to bold fuchsia)</>,
       title_ceremony2: "Haldi Hues",
       time2: "4pm Onwards",
       title_ceremony3: "Sangeet and Dinner",
