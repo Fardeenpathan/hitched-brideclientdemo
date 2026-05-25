@@ -145,7 +145,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/bride__mobilebg2.jpg')]
+    bg-[url('/assets/bride__mobilebg2.webp')]
     3xl:bg-[url('/assets/rohit_desktopbg.webp')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
