@@ -58,6 +58,16 @@ export default function CoupleMessage() {
               modules={[EffectCoverflow, Pagination, Autoplay]}
               className="mySwiper"
             >
+
+               <SwiperSlide>
+                <img src="/assets/bridecouple_img_1.png"/>
+              </SwiperSlide>
+               <SwiperSlide>
+                <img src="/assets/bridecouple_img_2.png"/>
+              </SwiperSlide>
+               <SwiperSlide>
+                <img src="/assets/bridecouple_img_3.png"/>
+              </SwiperSlide>
              <SwiperSlide>
                 <img src="/assets/couple_img_1.png"/>
               </SwiperSlide>
@@ -107,7 +117,7 @@ export default function CoupleMessage() {
                   className="lg:h-20 lg:w-24 h-26 w-32 "
                 />
                 <h2 className="lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 font-Cormorant-upright">
-                  Location
+                 Wedding Location
                 </h2>
                  <span className="md:text-[20px] text-[16px] md:leading-5 text-[#FFF5B9] mt-1 font-cormorant"> The Central Park Hotel</span>
                 <p className="md:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 font-cormorant">
@@ -170,7 +180,7 @@ A little rain never stopped a good celebration anyway.
               </h2>
             </div> */}
             <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4">
-  <a href="https://wa.link/5ad8dn" target="_blank">
+  <a href="https://wa.link/kqsyd5" target="_blank">
     <img
       src="/assets/whatsapp_n.png"
       alt=""

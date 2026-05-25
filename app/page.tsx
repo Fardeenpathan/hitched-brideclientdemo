@@ -44,34 +44,42 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Haldi + Mehendi",
+      title_ceremony: "Henna Harmony",
       image: "/assets/mehandi.png",
-      date: "Saturday, 20th June 2026",
-      venue: "The Central Park Hotel",
+      // date: "Friday, 19th June 2026",
+      // venue: "Venue: The Park View hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
-      time: "4pm Onwards",
-      theme: <><b>Theme:-</b> Pretty in Pink: <br/> Florals, Pastels & Pink Hues</>,
+      time: <>4pm Onwards <br/>Friday, 19th June 2026<br/>Venue: The Park View hall</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
     {
-      title_ceremony: "Engagement + Sangeet",
+      title_ceremony: "Bya Haath",
       image: "/assets/cocktail_w.png",
       date: "Saturday, 20th June 2026",
-      venue: "The Central Park Hotel",
+      venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
-      time: "8pm Onwards",
-      theme: <><b>Theme:-</b> Glitz & Glam: <br/> Shimmer, sequins & Statement Fits</>,
+      time: "11am Onwards",
+      theme1: <><b>Theme:-</b> The Pink Edit: <br /> (dress in any shade of pink from soft blush to bold fuchsia)</>,
+      title_ceremony2: "Haldi Hues",
+      time2: "4pm Onwards",
+      title_ceremony3: "Sangeet and Dinner",
+      time3: "8pm Onwards",
+      theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Shimmer, sequins and statement fits)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
-      title_ceremony: "Wedding + Reception",
+      title_ceremony: "Bhat",
       image: "/assets/engagement_w.png",
       date: "Sunday, 21st June 2026",
-      venue: "The Central Park Hotel",
+      venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
-      time: "5pm Onwards",
-      theme: <><b>Theme:-</b> Timeless Royalty:<br/> Elegant Ethnic & Royal Silhouettes</>,
+      time: "11am Onwards",
+       title_ceremony2: "Gaur",
+       time2: "12.30pm Onwards",
+        title_ceremony3: "Wedding & Reception",
+       time3: <>6pm Onwards <br/> followed by Varmala, Phera & Reception</>,
+      theme2: <><b>Theme:-</b> Ethnic attire draped in love and blessings</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
@@ -137,7 +145,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
 
       <div className="
-    bg-[url('/assets/rohit_mobilebgn.webp')]
+    bg-[url('/assets/bride__mobilebg2.jpg')]
     3xl:bg-[url('/assets/rohit_desktopbg.webp')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
@@ -233,10 +241,10 @@ export default function Home() {
         <div className=" md:pt-24 pt-4 md:pb-50 lg:pb-60 relative z-10 pb-24">
           <h2 className="text-[#15528A]  text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0 flex flex-col items-center gap-y-2 ">
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-extrabold">
-              Rohit
+              Deeksha
             </span>
             <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
-            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Deeksha</span>
+            <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Rohit</span>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-0">
@@ -260,10 +268,10 @@ export default function Home() {
               <br /> Late Smt. Kamla Kapoor
             </h2> */}
 
-          
+
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Bhawnani Family
+              The Jain Family
             </h2>
           </div>
 
@@ -281,13 +289,13 @@ export default function Home() {
 
             <h2 className="text-white font-Cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              Rohit
+              Deeksha
             </h2>
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
-              <br />(Son of Mrs. Kanchan & Mr. Sanjay Bhawnani)
+              (Granddaughter of Smt. Vidya Jain & Late Padam Chand Jain)
+              <br />(Daughter of Mrs. Sarita & Mr. Pradeep Jain)
             </p>
 
 
@@ -297,11 +305,12 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-white font-Cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Deeksha
+              Rohit
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
+              (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)<br />
+              (Son of Mrs. Kanchan Bhawnani & Mr. Sanjay Bhawnani)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -322,28 +331,48 @@ export default function Home() {
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
                     {event.title_ceremony}
                   </h2>
+                  <p className="text-white font-Cormorant-upright text-[22px]">
+
+{event.time}
+
+                  </p>
 
 
+   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                    {event.title_ceremony2}
+                  </h2>
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
+                    <span className="text-[22px]">  {event.time2} </span>
+                  </p>
 
+                    <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[20px]">{event.theme1}</span></p>
+<h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                    {event.title_ceremony3}
+                  </h2>
+
+                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
+                    <span className="text-[22px]">  {event.time3} </span>
+                  </p>
+                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                    <span className="text-[20px]">{event.theme2}</span></p>
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
-                    
-                    
-                    <span className="text-[22px]">  {event.time} </span>
+
                   </p>
- <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[20px]">{event.theme}</span></p>
-                  
-               
+                  <p className="text-white font-Cormorant-upright md:text-[22px] mt-2 text-[22px]">{event.venue}</p>
+                
+
+
                 </div>
               ))}
             </div>
-           
+
           </div>
- 
-<div className="flex justify-center md:mt-20 mt-10"><p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px] md:text-[24px]">Note: Themes optional, vibes unmatched</span></p>
-</div>
+
+          <div className="flex justify-center md:mt-20 mt-10"><p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+            <span className="text-[22px] md:text-[24px]">Note: Themes optional, vibes unmatched</span></p>
+          </div>
 
           <div className="lg:h-350 md:h-180 h-86 md:pt-0 pt-30 lg:pr-180 pr-40 md:pr-50  flex flex-col justify-end items-center text-center lg:pb-80 md:pb-40 pb-10">
 
