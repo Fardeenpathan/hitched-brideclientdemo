@@ -180,7 +180,7 @@ A little rain never stopped a good celebration anyway.
               </h2>
             </div> */}
             <div className="flex md:gap-4 gap-2 justify-center items-start md:items-center md:mt-4">
-  <a href="https://api.whatsapp.com/send?phone=917042279130" target="_blank">
+  <a href="https://wa.link/vgsmsf" target="_blank">
     <img
       src="/assets/whatsapp_n.png"
       alt=""
