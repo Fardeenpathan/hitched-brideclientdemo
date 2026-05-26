@@ -194,7 +194,7 @@ A little rain never stopped a good celebration anyway.
   
 </div>
 <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
-    Ashutosh Jain (brother)
+    Ashutosh Jain (Brother)
   </h2> 
   {/* <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
     7042279130
