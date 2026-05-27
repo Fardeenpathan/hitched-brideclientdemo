@@ -294,8 +294,8 @@ export default function Home() {
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (Granddaughter of Smt. Vidya Jain & Late Padam Chand Jain)
-              <br />(Daughter of Mrs. Sarita & Mr. Pradeep Jain)
+               (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
+              <br />(Granddaughter of Smt. Vidya Jain & Late Padam Chand Jain)
             </p>
 
 
@@ -309,8 +309,8 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)<br />
-              (Son of Mrs. Kanchan Bhawnani & Mr. Sanjay Bhawnani)
+              (Son of Mrs. Kanchan Bhawnani & Mr. Sanjay Bhawnani)<br />
+               (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
