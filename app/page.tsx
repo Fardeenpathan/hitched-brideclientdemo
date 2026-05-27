@@ -45,7 +45,7 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    
+
 
     {
       Main_title_ceremony: "Blessings and Bangles",
@@ -78,7 +78,7 @@ export default function Home() {
       // Main_title_ceremony2: "Gaur",
       // title_ceremony2: "SACRED RITUAL",
       // time2: "12.30pm onwards",
-            image2: "/assets/engagement_w.png",
+      image2: "/assets/engagement_w.png",
       Main_title_ceremony2: "The Sacred Union",
       title_ceremony2: "WEDDING & RECEPTION",
       time2: <>6pm onwards <br /> followed by Varmala, Phera & Reception</>,
@@ -266,7 +266,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-180 md:pt-0">
-           
+
 
 
 
@@ -316,7 +316,7 @@ export default function Home() {
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
-             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
+            <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               #RoSaysIDee
             </p>
           </div>
@@ -346,10 +346,10 @@ export default function Home() {
                     {event.time}
 
                   </p>
-                  {/* <hr className="lg:w-48 w-16 border-[#E6D2FF] my-4" /> */}
-<img
+
+                  <img
                     src={event.image2}
-                    
+
                     className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 mt-12"
                   />
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
@@ -364,18 +364,18 @@ export default function Home() {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[20px]">{event.theme1}</span></p>
-{/* <img
+                  {/* <img
                     src={event.image3}
                     alt={event.venue}
                     className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 mt-12"
                   /> */}
                   {event.image3 && (
-  <img
-    src={event.image3}
-    alt={event.venue}
-    className="lg:w-80 sm:w-76 w-70 h-auto mt-12"
-  />
-)}
+                    <img
+                      src={event.image3}
+                      alt={event.venue}
+                      className="lg:w-80 sm:w-76 w-70 h-auto mt-12"
+                    />
+                  )}
 
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony3}
