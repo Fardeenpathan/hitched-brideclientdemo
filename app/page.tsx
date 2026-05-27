@@ -290,7 +290,7 @@ export default function Home() {
 
 
             <h2 className="text-white font-cormorant 
-            text-3xl sm:text-5xl lg:text-[50px] leading-tight lg:tracking-wide tracking-wider">
+            text-4xl sm:text-5xl lg:text-[50px] leading-tight lg:tracking-wide tracking-wider">
               The Jain Family
             </h2>
           </div>
@@ -298,7 +298,7 @@ export default function Home() {
           <div className="mt-8 text-center">
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              INVITES
+              invites
             </h2>
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               you to join us in the wedding celebrations of
