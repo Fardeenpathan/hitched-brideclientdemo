@@ -192,10 +192,10 @@ export default function CoupleMessage() {
   </h2> <br/>
   
 </div>
-<h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+{/* <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
     Ashutosh Jain (Brother)
-  </h2> 
-  <h2 className="lg:text-xl md:text-xl text-[14px] text-[#FFF5B9] font-Cormorant-upright leading-tight text-center md:px-24 lg:px-0">
+  </h2>  */}
+  <h2 className="lg:text-[22px] md:text-xl text-[14px] text-[#FFF5B9] font-Cormorant-upright leading-tight text-center md:px-24 lg:px-0 mt-3">
     Please do so at the earliest so we can make sure everything is just right for you ❤️
   </h2> 
   {/* <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
