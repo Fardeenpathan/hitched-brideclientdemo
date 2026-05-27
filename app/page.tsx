@@ -266,26 +266,7 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-180 md:pt-0">
-            {/* <img
-              src="/assets/ganesh_inter.png"
-              alt="ganesh"
-              className="md:w-40 w-28 h-auto"
-            /> */}
-            {/* <h2 className="text-white md:text-2xl text-[17px] text-center">
-              || श्री गणेशाय नमः ||
-            </h2>
-            <h2 className="text-white md:text-2xl text-[17px] text-center">
-              वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।
-              <br />
-              निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
-            </h2> */}
-
-
-            {/* <h2 className="text-white lg:text-[30px] md:text-2xl text-[20px] font-Cormorant-upright">
-              With the heavenly blessings of
-              <br /> Late Smt. Kamla Kapoor
-            </h2> */}
-
+           
 
 
 
