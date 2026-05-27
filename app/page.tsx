@@ -142,7 +142,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song_deeksha.mp3" loop preload="auto" playsInline />
 
       <div className="
     bg-[url('/assets/bride__mobilebg2.webp')]

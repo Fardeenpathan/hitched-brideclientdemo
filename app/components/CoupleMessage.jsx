@@ -142,8 +142,7 @@ export default function CoupleMessage() {
                   Weather
                 </h2>
                 <p className="md:text-[18px] text-[14px] text-[#FFF5B9] mt-1 font-cormorant md:leading-5">
-                 Clouds may drop by uninvited, <br/>but so will great vibes and better dance moves.<br/>
-A little rain never stopped a good celebration anyway.
+                 Rain or shine, the celebration goes on!<br/> While the clouds may have their own plans, <br/>rest assured that all our festivities are held indoors — <br/>so nothing stands between you, great company,<br/> and an unforgettable time.
                 </p>
               </div>
              
@@ -184,7 +183,7 @@ A little rain never stopped a good celebration anyway.
     <img
       src="/assets/whatsapp_n.png"
       alt=""
-      className="lg:h-10 lg:w-10 h-4 w-4 mt-1 md:mt-0"
+      className="lg:h-10 lg:w-10 h-6 w-6 mt-0 md:mt-0"
     />
   </a>
 
