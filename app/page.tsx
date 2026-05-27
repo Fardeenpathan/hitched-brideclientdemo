@@ -3,6 +3,8 @@ import Image from "next/image";
 import MarriageCountdown from "./components/MarriageCountdown";
 import CoupleMessage from "./components/CoupleMessage";
 import { useEffect, useState, useRef, useMemo } from "react";
+import Link from "next/link";
+
 
 
 
@@ -44,42 +46,49 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Henna Harmony",
+      Main_title_ceremony: "The Henna Soiree",
+      title_ceremony: "HENNA HARMONY",
       image: "/assets/mehandi.png",
-      // date: "Friday, 19th June 2026",
+      date: "Friday, 19th June 2026",
       // venue: "Venue: The Park View hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
-      time: <>4pm Onwards <br/>Friday, 19th June 2026<br/>Venue: The Park View hall</>,
+      time: <>4pm Onwards <br />Venue: The Park View hall</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
     {
-      title_ceremony: "Bya Haath",
+      Main_title_ceremony: "Blessings and Bangles",
+      title_ceremony: "BYA HAATH",
       image: "/assets/cocktail_w.png",
       date: "Saturday, 20th June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am Onwards",
-      theme1: <><b>Theme:-</b> The Pink Edit: <br /> (Dress in any shade of pink from soft blush to bold fuchsia)</>,
-      title_ceremony2: "Haldi Hues",
+      theme1: <><b>Theme:-</b> The Pink Edit: blush to fuchsia</>,
+      Main_title_ceremony2: "The Golden Glow",
+      title_ceremony2: "HALDI HUES",
       time2: "4pm Onwards",
-      title_ceremony3: "Sangeet and Dinner",
+      Main_title_ceremony3: "An Evening of Stars & Songs",
+      title_ceremony3: "SANGEET and DINNER",
       time3: "8pm Onwards",
       theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Shimmer, sequins and statement fits)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
-      title_ceremony: "Bhat",
+      Main_title_ceremony: "Bhaat",
+      title_ceremony: "ANCESTRAL OFFERINGS",
       image: "/assets/engagement_w.png",
       date: "Sunday, 21st June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am Onwards",
-       title_ceremony2: "Gaur",
-       time2: "12.30pm Onwards",
-        title_ceremony3: "Wedding & Reception",
-       time3: <>6pm Onwards <br/> followed by Varmala, Phera & Reception</>,
-      theme2: <><b>Theme:-</b> Ethnic attire draped in love and blessings</>,
+      Main_title_ceremony2: "Gaur",
+      title_ceremony2: "SACRED RITUAL",
+      time2: "12.30pm Onwards",
+      Main_title_ceremony3: "The Sacred Union",
+      title_ceremony3: "WEDDING & RECEPTION",
+      time3: <>6pm Onwards <br /> followed by Varmala, Phera & Reception</>,
+      theme2: <><b>Theme:-</b> Ethnic attire - draped in love and blessings</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
@@ -133,13 +142,28 @@ export default function Home() {
   return (
 
     <div>
+      <div>
+
+        <div className="fixed top-5 left-5 z-50">
+          <a href="#details">
+            <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
+              <span className="lg:text-[16px] text-[12px] font-semibold">
+                View Details
+              </span>
+
+            </button>
+          </a>
+        </div>
+      </div>
       <button
         onClick={() => {
           started ? toggleMusic() : startMusic();
         }}
-        className="fixed bottom-4 right-4 z-50 bg-[#FF35A1] text-white p-3 rounded-xl text-xl"
+        className="fixed bottom-4 right-4 z-50 bg-[#FF35A1] text-white p-3 rounded-xl text-xl cursor-pointer"
       >
-        {playing ? "⏸" : "▶"}
+        {/* {playing ? "⏸" : "▶"} */}
+        <span className=" py-2 px-1.5 ">{playing ? "⏸" : "▶"} </span>
+        <span className="text-[14px] lg:text-[16px]">{playing ? "Pause Music" : "Play Music"}</span>
       </button>
 
       <audio ref={audioRef} src="/assets/background_song_deeksha.mp3" loop preload="auto" playsInline />
@@ -270,17 +294,18 @@ export default function Home() {
 
 
 
-            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
+
+            <h2 className="text-white font-cormorant 
+            text-3xl sm:text-5xl lg:text-[50px] leading-tight lg:tracking-wide tracking-wider">
               The Jain Family
             </h2>
           </div>
 
           <div className="mt-8 text-center">
-            <h2 className="text-white font-cormorant 
-            text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
+
+            <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
               INVITES
             </h2>
-
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               you to join us in the wedding celebrations of
             </p>
@@ -294,7 +319,7 @@ export default function Home() {
 
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-               (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
+              (Daughter of Mrs. Sarita & Mr. Pradeep Jain)
               <br />(Granddaughter of Smt. Vidya Jain & Late Padam Chand Jain)
             </p>
 
@@ -310,7 +335,7 @@ export default function Home() {
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
               (Son of Mrs. Kanchan Bhawnani & Mr. Sanjay Bhawnani)<br />
-               (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
+              (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
             </p>
 
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -318,50 +343,60 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center mt-20">
+          <div className="flex justify-center mt-20" id="details">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
+                  <p className="text-white font-Cormorant-upright text-[24px] lg:text-[32px] md:text-[24px] mb-6">
+                    {event.date} <br />
+
+                  </p>
                   <img
                     src={event.image}
                     alt={event.venue}
                     className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 "
                   />
 
-                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.Main_title_ceremony}
+                  </h2>
+                  <h2 className="text-white font-Cormorant-upright lg:text-[25px] md:text-2xl text-[23px] font-bold">
                     {event.title_ceremony}
                   </h2>
                   <p className="text-white font-Cormorant-upright text-[22px]">
 
-{event.time}
+                    {event.time}
 
                   </p>
+                  {/* <hr className="lg:w-48 w-16 border-[#E6D2FF] my-4" /> */}
 
-
-   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.Main_title_ceremony2}
+                  </h2>
+                  <h2 className="text-white font-Cormorant-upright lg:text-[25px] md:text-2xl text-[23px] font-bold">
                     {event.title_ceremony2}
                   </h2>
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
                     <span className="text-[22px]">  {event.time2} </span>
                   </p>
 
-                    <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[20px]">{event.theme1}</span></p>
-<h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                  <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.Main_title_ceremony3}
+                  </h2>
+                  <h2 className="text-white font-Cormorant-upright lg:text-[25px] md:text-2xl text-[23px] font-bold">
                     {event.title_ceremony3}
                   </h2>
 
-                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
+                  <p className="text-white font-Cormorant-upright text-[14px] sm:text-base">
                     <span className="text-[22px]">  {event.time3} </span>
                   </p>
-                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[20px]">{event.theme2}</span></p>
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px]">{event.date}</span>  <br />
+                    <span className="text-[20px]">{event.theme2}</span></p>
 
-                  </p>
                   <p className="text-white font-Cormorant-upright md:text-[22px] mt-2 text-[22px]">{event.venue}</p>
-                
+
 
 
                 </div>
