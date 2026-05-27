@@ -298,7 +298,7 @@ export default function Home() {
           <div className="mt-8 text-center">
 
             <h2 className="text-white font-Cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              invites
+              Invites
             </h2>
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
               you to join us in the wedding celebrations of
