@@ -45,21 +45,12 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 
 export default function Home() {
   const events = [
-    {
-      Main_title_ceremony: "The Henna Soiree",
-      title_ceremony: "HENNA HARMONY",
-      image: "/assets/mehandi.png",
-      date: "Friday, 19th June 2026",
-      // venue: "Venue: The Park View hall",
-      venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
-      time: <>4pm onwards <br />Venue: The Park View hall</>,
-      link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
-    },
+    
 
     {
       Main_title_ceremony: "Blessings and Bangles",
       title_ceremony: "BYA HAATH",
-      image: "/assets/cocktail_w.png",
+      image: "/assets/bya.png",
       date: "Saturday, 20th June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
@@ -67,27 +58,30 @@ export default function Home() {
       theme1: <><b>Theme:-</b> The Pink Edit: blush to fuchsia</>,
       Main_title_ceremony2: "The Golden Glow",
       title_ceremony2: "HALDI HUES",
+      image2: "/assets/haldi_m.png",
       time2: "4pm onwards",
       Main_title_ceremony3: "An Evening of Stars & Songs",
+      image3: "/assets/cocktail_w.png",
       title_ceremony3: "SANGEET and DINNER",
       time3: "8pm onwards",
       theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Shimmer, sequins and statement fits)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
-      Main_title_ceremony: "Bhaat",
-      title_ceremony: "ANCESTRAL OFFERINGS",
-      image: "/assets/engagement_w.png",
+      Main_title_ceremony: "Bhaat & Gaur",
+      title_ceremony: "ANCESTRAL OFFERINGS/SACRED RITUAL",
+      image: "/assets/bhaat.png",
       date: "Sunday, 21st June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am onwards",
-      Main_title_ceremony2: "Gaur",
-      title_ceremony2: "SACRED RITUAL",
-      time2: "12.30pm onwards",
-      Main_title_ceremony3: "The Sacred Union",
-      title_ceremony3: "WEDDING & RECEPTION",
-      time3: <>6pm onwards <br /> followed by Varmala, Phera & Reception</>,
+      // Main_title_ceremony2: "Gaur",
+      // title_ceremony2: "SACRED RITUAL",
+      // time2: "12.30pm onwards",
+            image2: "/assets/engagement_w.png",
+      Main_title_ceremony2: "The Sacred Union",
+      title_ceremony2: "WEDDING & RECEPTION",
+      time2: <>6pm onwards <br /> followed by Varmala, Phera & Reception</>,
       theme2: <><b>Theme:-</b> Ethnic attire - draped in love and blessings</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
@@ -170,7 +164,7 @@ export default function Home() {
 
       <div className="
     bg-[url('/assets/bride__mobilebg2.webp')]
-    3xl:bg-[url('/assets/rohit_desktopbg.webp')]
+    3xl:bg-[url('/assets/rohit_desktopbg22.jpg')]
     md:bg-[url('/assets/rohit_desktopbg2.webp')]
     bg-cover bg-no-repeat bg-top md:bg-center w-full px-4 sm:px-8 overflow-hidden relative">
 
@@ -271,7 +265,7 @@ export default function Home() {
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Rohit</span>
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-0">
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-180 md:pt-0">
             {/* <img
               src="/assets/ganesh_inter.png"
               alt="ganesh"
@@ -334,7 +328,7 @@ export default function Home() {
             </h2>
 
             <p className="text-white font-Cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (Son of Mrs. Kanchan Bhawnani & Mr. Sanjay Bhawnani)<br />
+              (Son of Mrs. Kanchan & Mr. Sanjay Bhawnani)<br />
               (Grandson of Mrs. Kanta & Mr. Kamal Bhawnani)
             </p>
 
@@ -344,10 +338,10 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20" id="details">
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-32 gap-16 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
-                  <p className="text-white font-Cormorant-upright text-[24px] lg:text-[32px] md:text-[24px] mb-6">
+                  <p className="text-white font-Cormorant-upright text-[28px] lg:text-[32px] md:text-[24px] mb-6 font-bold">
                     {event.date} <br />
 
                   </p>
@@ -369,7 +363,11 @@ export default function Home() {
 
                   </p>
                   {/* <hr className="lg:w-48 w-16 border-[#E6D2FF] my-4" /> */}
-
+<img
+                    src={event.image2}
+                    
+                    className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 mt-12"
+                  />
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony2}
                   </h2>
@@ -382,6 +380,19 @@ export default function Home() {
 
                   <p className="text-white font-Cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[20px]">{event.theme1}</span></p>
+{/* <img
+                    src={event.image3}
+                    alt={event.venue}
+                    className="lg:w-80 lg-w-95 sm:w-76 h-auto w-70 mt-12"
+                  /> */}
+                  {event.image3 && (
+  <img
+    src={event.image3}
+    alt={event.venue}
+    className="lg:w-80 sm:w-76 w-70 h-auto mt-12"
+  />
+)}
+
                   <h2 className="text-white font-Cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.Main_title_ceremony3}
                   </h2>
