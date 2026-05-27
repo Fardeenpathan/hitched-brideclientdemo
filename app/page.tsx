@@ -335,6 +335,9 @@ export default function Home() {
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
+             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
+              #RoSaysIDee
+            </p>
           </div>
 
           <div className="flex justify-center mt-20" id="details">
