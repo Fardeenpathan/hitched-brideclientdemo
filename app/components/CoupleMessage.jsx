@@ -108,7 +108,7 @@ export default function CoupleMessage() {
             we’ve gathered a few thoughtful details we’d love for you to know
             before the big day.
           </h2>
-          <div className="flex justify-center mt-10 md:pb-24 pb-16">
+          <div className="flex justify-center mt-10 lg:pb-24 md:pb-1 pb-10">
             <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 sm:gap-16">
 <div className="flex flex-col items-center justify-center text-center md:mt-15">
                 <img
@@ -167,7 +167,7 @@ export default function CoupleMessage() {
           </div>
 
           <div className="flex flex-col justify-center items-center 3xl:mt-0 lg:mt-20 lg:ml-140 ml-34 md:ml-50">
-            <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-63 pt-1 font-Cormorant-upright md:leading-12 leading-6">
+            <h2 className="lg:text-5xl text-[22px] md:text-[30px] text-center text-[#FFF5B9] lg:pt-63 pt-0 md:pt-0 font-Cormorant-upright md:leading-12 leading-6">
               Looking Forward to <br /> Seeing You
             </h2>
             {/* <div className="flex flex-col-1 md:gap-4 gap-2 justify-center items-center md:not-first:mt-4 ">
@@ -187,13 +187,16 @@ export default function CoupleMessage() {
     />
   </a>
 
-  <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
+  <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight text-center">
     Click on the Whatsapp icon to RSVP
   </h2> <br/>
   
 </div>
 <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
     Ashutosh Jain (Brother)
+  </h2> 
+  <h2 className="lg:text-xl md:text-xl text-[14px] text-[#FFF5B9] font-Cormorant-upright leading-tight text-center md:px-24 lg:px-0">
+    Please do so at the earliest so we can make sure everything is just right for you ❤️
   </h2> 
   {/* <h2 className="lg:text-3xl md:text-xl text-[16px] text-[#FFF5B9] font-Cormorant-upright leading-tight">
     7042279130
