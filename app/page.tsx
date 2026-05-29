@@ -425,7 +425,7 @@ export default function Home() {
 
       <div className="hidden md:block bg-[url('/assets/moon.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-335 md:h-180 flex 3xl:pt-65 lg:pt-50 md:pt-25 3xl:h-410 justify-center">
-<p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4">
+<p className="font-Cormorant-upright lg:text-7xl md:text-4xl text-[34px] font-bold md:mt-4 text-white">
               #RoSaysIDee
             </p>
         </div>
@@ -442,7 +442,7 @@ export default function Home() {
         />
 
         <div className="absolute top-[12svh] left-0 right-0 flex justify-center">
-  <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[34px] font-bold md:mt-4">
+  <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[34px] font-bold md:mt-4 text-white">
               #RoSaysIDee
             </p>
         </div>
