@@ -44,7 +44,7 @@ export default function MarriageCountdown() {
                         Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
                     </p>
                      <p className="lg:text-[22px] text-[20px] text-[#FFF5B9] mt-4 text-center lg:px-100 md:px-25 px-10 font-Cormorant-upright">
-                        With Best Compliments from, <br/>Vidya Jain,<br/> Pradeep & Sarita Jain,<br/> Ashutosh, Rishika & Ridham Jain, <br/>Sanjay, Suman, Dinesh Dolly,<br/> Shubham, Priyanka, Shivam, <br/> Ruchika & Viyana Jain <br/>
+                        <b>With Best Compliments from,</b> <br/>Vidya Jain,<br/> Pradeep & Sarita Jain,<br/> Ashutosh, Rishika & Ridham Jain, <br/>Sanjay, Suman, Dinesh, Dolly,<br/> Shubham, Priyanka, Shivam, <br/> Ruchika & Viyana Jain <br/>
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
                        <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram_w.png" alt="" className="h-10 w-10"/></a>

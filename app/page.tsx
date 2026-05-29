@@ -50,7 +50,7 @@ export default function Home() {
     {
       Main_title_ceremony: "Blessings and Bangles",
       title_ceremony: "BYA HAATH",
-      image: "/assets/bya.png",
+      image: "/assets/byaah.png",
       date: "Saturday, 20th June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
@@ -70,7 +70,7 @@ export default function Home() {
     {
       Main_title_ceremony: "Bhaat & Gaur",
       title_ceremony: "ANCESTRAL OFFERINGS/SACRED RITUAL",
-      image: "/assets/bhaat.png",
+      image: "/assets/gaur.png",
       date: "Sunday, 21st June 2026",
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
@@ -263,6 +263,10 @@ export default function Home() {
             </span>
             <span className="text-[12px] sm:text-3xl tracking-[10px] font-cormorant [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">WEDS</span>
             <span className="font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)]">Rohit</span>
+
+            <p className="font-Cormorant-upright lg:text-4xl md:text-2xl text-[20px] font-bold md:mt-4">
+              #RoSaysIDee
+            </p>
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-180 md:pt-0">
@@ -316,9 +320,7 @@ export default function Home() {
             <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
-            <p className="text-white font-Cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
-              #RoSaysIDee
-            </p>
+            
           </div>
 
           <div className="flex justify-center mt-20" id="details">
