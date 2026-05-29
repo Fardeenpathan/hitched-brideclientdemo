@@ -64,7 +64,7 @@ export default function Home() {
       image3: "/assets/cocktail_w.png",
       title_ceremony3: "SANGEET and DINNER",
       time3: "8pm onwards",
-      theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Dress in shimmery, sequins and statement fits)</>,
+      theme2: <><b>Theme:-</b>  Glitz & Glam <br />(Dress in shimmery, sequins and statement fits)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
@@ -269,9 +269,13 @@ export default function Home() {
             </p>
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-180 md:pt-0">
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-250 pt-150 md:pt-150">
 
-
+ <img
+              src="/assets/jain.png"
+              alt="ganesh"
+              className="md:w-20 w-15 h-auto"
+            />
 
 
             <h2 className="text-white font-cormorant 
