@@ -55,7 +55,7 @@ export default function Home() {
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am onwards",
-      theme1: <><b>Theme:-</b> The Pink Edit: blush to fuchsia</>,
+      theme1: <><b>Theme:-</b> The Pink Edit(any shade of color pink)</>,
       Main_title_ceremony2: "The Golden Glow",
       title_ceremony2: "HALDI HUES",
       image2: "/assets/haldi_m.png",
