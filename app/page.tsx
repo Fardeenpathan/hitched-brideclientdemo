@@ -55,7 +55,7 @@ export default function Home() {
       venue: "Venue: The Pavilion hall",
       venue_address: <>Bund Garden Road, Agarkar Nagar, <br />   Pune, Maharashtra, 411001</>,
       time: "11am onwards",
-      theme1: <><b>Theme:-</b> The Pink Edit(any shade of color pink)</>,
+      theme1: <><b>Theme:-</b> The Pink Edit <br/>(Dress in your favourite pink shade)</>,
       Main_title_ceremony2: "The Golden Glow",
       title_ceremony2: "HALDI HUES",
       image2: "/assets/haldi_m.png",
@@ -64,7 +64,7 @@ export default function Home() {
       image3: "/assets/cocktail_w.png",
       title_ceremony3: "SANGEET and DINNER",
       time3: "8pm onwards",
-      theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Shimmer, sequins and statement fits)</>,
+      theme2: <><b>Theme:-</b>  Glitz & Glam: <br />(Dress in shimmery, sequins and statement fits)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
     {
@@ -82,7 +82,7 @@ export default function Home() {
       Main_title_ceremony2: "The Sacred Union",
       title_ceremony2: "WEDDING & RECEPTION",
       time2: <>6pm onwards <br /> followed by Varmala, Phera & Reception</>,
-      theme2: <><b>Theme:-</b> Ethnic attire - draped in love and blessings</>,
+      theme2: <><b>Theme:-</b> Ethnic attire <br/> (Dress in any ethnic attire draped in lots of love and blessings)</>,
       link: "https://maps.app.goo.gl/fKxi3eDGsTSd5Aaz6?g_st=ic",
     },
 
